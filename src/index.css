@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  font-family: roboto,sans-serif;
+  -webkit-font-smoothing: antialised;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  font-size: 12px;
+}
+
+form{
+  width: 100%;
+  position: fixed;
+}
+
+button{
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 33.33%;
+  cursor: pointer;
+}
+
+button.selected{
+  background-color: #000;
+  color: #fff;
+}
+
+li{
+  margin-bottom: 1rem;
+}
+
+ul{
+  padding: 3rem,2rem,1rem;
+}
+
+.table-container{
+  width: 100%;
+  overflow-y: auto;
+  padding-top: 52px;
+}
+
+td{
+  border: 1px solid black;
+  padding: 0.5rem;
+}
